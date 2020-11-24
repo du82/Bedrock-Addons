@@ -43,5 +43,5 @@ IP addresses | | No, use VPN to protect | Everyone | Any access to Bedrock Addon
 ## Where is the account and analytics data stored?
 Octarus encrypts and stores user data securely on our own servers. Analytics data is stored on our own servers, and data that is collected through the use of Google Analytics is anonymized and stored by Google.
 
-## What information is shared with others in the network? {#p2p}
+## What information is shared with other developers in the network?
 Anyone can download and set up this project, and start their own Android app. Developers utilizing the APIs do have acccess to a limited amount of user data along with analytics, and other required information to make the service function.
