@@ -29,8 +29,6 @@ You can read up on Bedrock Addons at the [Documentation Website](https://octarus
 This project is on a hiatus while I work on projects that are more fun and less stressful. The Bedrock Addons servers will remain online.
 
 ## What type of data is collected and where?
-As a first time user of LBRY applications and [lbry.tv](https://lbry.tv), you have the option of providing an email address to create an LBRY account. This allows for a richer user experience by enabling services such as [LBRY Rewards](https://lbry.com/faq/rewards), email notifications, and account synchronization (i.e. subscriptions and user preferences) across multiple devices/platforms. If you do not provide an email, any data collected cannot be associated with your identity, but may still be tied back to other system information like IP addresses.
-
 See below tables for a break-down of the types of data collected and associated applications.
 
 Scope of Data | Depends on   | Optional     | Visibility       | Details
