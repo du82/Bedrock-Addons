@@ -28,7 +28,22 @@ Please know that the server application is not required to build and run this An
 You can read up on Bedrock Addons at the [Documentation Website](https://octarus.dev/project/bedrock-addons/).
 This project is on a hiatus while I work on projects that are more fun and less stressful. The Bedrock Addons servers will remain online.
 
- dP"Yb    dP""b8  888888    db     88""Yb  88   88  .dP"Y8
-dP   Yb  dP   `"    88     dPYb    88__dP  88   88  `Ybo."
-Yb   dP  Yb         88    dP__Yb   88"Yb   Y8   8P  o.`Y8b
- YbodP    YboodP    88   dP""""Yb  88  Yb  `YbodP'  8bodP'
+## What type of data is collected and where?
+As a first time user of LBRY applications and [lbry.tv](https://lbry.tv), you have the option of providing an email address to create an LBRY account. This allows for a richer user experience by enabling services such as [LBRY Rewards](https://lbry.com/faq/rewards), email notifications, and account synchronization (i.e. subscriptions and user preferences) across multiple devices/platforms. If you do not provide an email, any data collected cannot be associated with your identity, but may still be tied back to other system information like IP addresses.
+
+See below tables for a break-down of the types of data collected and associated applications.
+
+Scope of Data | Depends on   | Optional     | Visibility       | Details
+:------------ |:------------ |:------------ |:---------------- |:------------ |
+Email addresses | | Yes, if email provided | You + Admins | Used to create an Octarus account
+User preferences | Device ID | Yes | You only | Managing things like favories, color scheme, and local account info
+System information | Device ID | No, system information collection is mandatory | Admins | Operating system, application/SDK versions, and unique install identifier
+Google Analytics | | Android only |  Admins | User behavior and interactions within the applications are tracked. This is not linked to an Octarus account.
+Content access analytics | Device ID | No | Everyone | Content analytics data lets anyone view how content is ranking it and how many views and downloads it is getting.
+IP addresses | | No, use VPN to protect | Everyone | Any access to Bedrock Addons is logged for spam prevention and moderation.
+
+## Where is the account and analytics data stored?
+Octarus encrypts and stores user data securely on our own servers. Analytics data is stored on our own servers, and data that is collected through the use of Google Analytics is anonymized and stored by Google.
+
+## What information is shared with others in the network? {#p2p}
+Anyone can download and set up this project, and start their own Android app. Developers utilizing the APIs do have acccess to a limited amount of user data along with analytics, and other required information to make the service function.
