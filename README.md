@@ -1,2 +1,2 @@
 # Bedrock Addons
-This repository is not being maintained anymore. Please view on GitLab for the up-to-date repository: https://gitlab.com/bedrock-addons
+This repository is not being maintained anymore. I've moved this repository, and the backend code here: https://github.com/Bedrock-Addons
